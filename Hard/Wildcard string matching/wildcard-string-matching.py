@@ -1,4 +1,3 @@
-#User function Template for python3
 import re
 
 class Solution:
@@ -8,7 +7,6 @@ class Solution:
 
         # Use re.fullmatch to check if the entire text matches the regular expression pattern
         return True if re.fullmatch(regex_pattern, text_to_match) else False
-
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
